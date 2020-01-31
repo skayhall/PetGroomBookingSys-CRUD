@@ -18,16 +18,6 @@ namespace PetGrooming.Models
 
         //Described in CENTS per hour (i.e. $25/hr = 2500cents/hr)
         public int GroomerRate { get; set; }
-        /* 
-            A groomer is someone who is employed to groom pets
-            Some things that describe a groomer
-                - First Name
-                - Last Name
-                - Date of Birth
-                - Phone Number
-                - Hourly Rate
-
-            A booking must reference to a groomer
-        */
+ 
     }
 }

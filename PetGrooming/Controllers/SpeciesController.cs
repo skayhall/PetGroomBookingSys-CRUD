@@ -22,8 +22,6 @@ namespace PetGrooming.Controllers
             return View();
         }
 
-        //TODO: Each line should be a separate method in this class
-        // List
 
         public ActionResult List()
         {
@@ -121,12 +119,5 @@ namespace PetGrooming.Controllers
         }
 
 
-        // Show
-        // Add
-        // [HttpPost] Add
-        // Update
-        // [HttpPost] Update
-        // (optional) delete
-        // [HttpPost] Delete
     }
 }
