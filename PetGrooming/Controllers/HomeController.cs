@@ -15,14 +15,14 @@ namespace PetGrooming.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "The #1 Pet Grooming Booking System";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Get In Touch";
 
             return View();
         }

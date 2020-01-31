@@ -7,9 +7,9 @@
 
 <form method="POST" action="/Pet/Add">
     <!-- TODO: format this nicely -->
-    <div><span>Name:</span><input id="PetName" type="text" name="PetName" /></div>
+    <div><span>Name:</span></div><div><input id="PetName" type="text" name="PetName" /></div><br />
     <div>
-        <span>Species:</span>
+        <span>Species:</span><br />
         <select id="SpeciesID" type="text" name="SpeciesID">
             @{ 
                 //A rendering loop for presenting a list of species
@@ -20,13 +20,11 @@
 
                 }
             }
-        </select>
+        </select><br /><br />
     </div>
-    <div><span>Weight:</span><input id="PetWeight" type="text" name="PetWeight" /></div>
-    <div><span>Color:</span><input id="PetColor" type="text" name="PetColor" /></div>
+    <div><span>Weight (kg):</span></div><div><input id="PetWeight" type="text" name="PetWeight" /></div><br />
+    <div><span>Color:</span></div><div><input id="PetColor" type="text" name="PetColor" /></div><br />
     <div>Notes:</div>
-    <textarea id="PetNotes" name="PetNotes">
-
-    </textarea>
+    <textarea id="PetNotes" name="PetNotes"></textarea><br /><br />
     <input type="submit" value="Add Pet">
 </form>

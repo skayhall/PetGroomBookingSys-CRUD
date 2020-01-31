@@ -5,7 +5,15 @@
 }
 
 <h2>Show Pet</h2>
+<a href="/Pet/List">Back to List of Pets</a>
+<br />
+<br />
 
 <div>Name : @Model.PetName</div>
+<div>Species : <a href="/Species/List">@Model.Species.Name</div></a>
+
 <div>Weight : @Model.Weight</div>
-<div>Species : @Model.Species.Name</div>
+<div>Color: @Model.Color</div>
+<div>Notes: @Model.Notes</div>
+
+<br /><a href="/Pet/Update/@Model.PetID">Update</a>
