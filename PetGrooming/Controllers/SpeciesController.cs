@@ -28,7 +28,7 @@ namespace PetGrooming.Controllers
 
             List<Species> myspecies = db.Species.SqlQuery("SELECT * FROM species").ToList();
 
-            //data we need - 
+            //data we need 
             return View(myspecies);
 
         }
@@ -48,7 +48,7 @@ namespace PetGrooming.Controllers
         {
 
             //STEP 1 - GATHER INPUT DATA FOR PET SPECIES
-            Debug.WriteLine("Gathering species name FROM" + SpeciesName); //debuggingline
+            Debug.WriteLine("Gathering species name FROM" + SpeciesName); //debugging line
 
             //STEP 2 - CREATE QUERY
             string query = "INSERT INTO species (Name) values (@SpeciesName)";
